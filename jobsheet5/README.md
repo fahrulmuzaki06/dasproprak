@@ -1,4 +1,4 @@
-Pertanyaan 2.1
+Pertanyaan 2.1.
     1.Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan
     operator relasional?
     2.Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya?
