@@ -6,15 +6,15 @@ public class ifCetakKRS14 {
         System.out.println("--- Cetak KRS ---");
         System.out.print("Apakah UKT sudah lunas? (true/false): ");
 
-        boolean uktLunas = input.nextBoolean(); // nama variabel benar
+        boolean uktLunas = input.nextBoolean(); 
 
-        if (uktLunas) { // gunakan nama yang sama persis
+        if (uktLunas) { 
             System.out.println("Pembayaran UKT terverifikasi");
             System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
         } else {
             System.out.println("Silakan Lunasi UKT terlebih dahulu agar bisa mencetak KRS.");
         }
 
-        input.close(); // opsional, untuk menutup Scanner
+        input.close();
     }
 }
