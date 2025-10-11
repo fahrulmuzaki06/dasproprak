@@ -15,7 +15,7 @@ public class Latihan1 {
         if (kartuMahasiswa && registrasiOnline) {
             System.out.print("Boleh Masuk Perpustakaan");
         }   else {
-            System.out.print("Tidak Boleh Masuk Perpustakaan");
+            System.out.print("Tidak Boleh Masuk Perpustakaan.");
         }
     input.close();
     }
