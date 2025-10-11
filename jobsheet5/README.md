@@ -32,3 +32,25 @@ Jawaban 2.3
 1. Tetap menyuruk memasukkan jumlah log dan hasil akhir "Gagal! Mahasiswa masih memiliki tanggungan kompen"
 2. Bimbingan 1 minimal 8 dan bimbingan 2 minimal 4
 3. Pertama menanyakan mahasiswa sudah bebas kompen Ya/Tidak lalu masukkan log bimbingan 1 lanjut masukkan log bimbingan 2 dan hasil akhir antara "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi", "Gagal! Log bimbingan P2 kurang dari 4 kali", "Gagal! Log bimbingan P1 belum mencapai 8 kali", "Gagal! Log bimbingan P2 belum mencapai 4 kali", "Gagal! Mahasiswa masih memiliki tanggungan kompen."
+
+
+PSEUDOCODE  
+
+Latihan 1  
+
+Start Deklarasi variabel: kartuMahasiswa : boolean registrasiOnline : boolean
+
+"Apakah Membawa Kartu Mahasiswa (true/false): "
+Input kartuMahasiswa
+
+"Apakah Sudah Registrasi Online (true/false): "
+Input registrasiOnline
+
+Jika (kartuMahasiswa == true) atau (registrasiOnline == true) maka
+    Tampilkan "Boleh Masuk Perpustakaan"
+Jika false
+    Tampilkan "Tidak Boleh Masuk Perpustakaan"
+
+End
+
+Latihan 2  
