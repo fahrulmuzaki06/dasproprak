@@ -54,3 +54,22 @@ Jika false
 End
 
 Latihan 2  
+
+Start Deklarasi variabel: jenisPengguna : string sks : integer
+
+"Masukkan jenis pengguna (dosen/mahasiswa/lainnya): "
+Input jenisPengguna
+
+Jika jenisPengguna = "dosen" maka
+    Tampilkan "Akses WiFi diberikan (dosen)"
+Jika tidak, jika jenisPengguna = "mahasiswa" maka
+    Tampilkan "Masukkan jumlah SKS yang diambil: "
+    Input sks
+    Jika sks >= 12 maka
+        Tampilkan "Akses WiFi diberikan (mahasiswa aktif)"
+    Jika tidak
+        Tampilkan "Akses ditolak, SKS kurang dari 12"
+Jika tidak
+    Tampilkan "Akses ditolak"
+
+End
