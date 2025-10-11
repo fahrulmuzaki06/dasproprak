@@ -46,10 +46,10 @@ Input kartuMahasiswa
 "Apakah Sudah Registrasi Online (true/false): "  
 Input registrasiOnline  
 
-Jika (kartuMahasiswa == true) atau (registrasiOnline == true) maka  
-    Tampilkan "Boleh Masuk Perpustakaan"  
-Jika false  
-    Tampilkan "Tidak Boleh Masuk Perpustakaan"  
+    Jika (kartuMahasiswa == true) atau (registrasiOnline == true) maka  
+        Tampilkan "Boleh Masuk Perpustakaan"  
+    Jika false  
+        Tampilkan "Tidak Boleh Masuk Perpustakaan"  
 
 End
 
@@ -60,11 +60,11 @@ Start Deklarasi variabel: jenisPengguna : string sks : integer
 "Masukkan jenis pengguna (dosen/mahasiswa/lainnya): "
 Input jenisPengguna
 
-Jika jenisPengguna = "dosen" maka  
-    Tampilkan "Akses WiFi diberikan (dosen)"  
+    Jika jenisPengguna = "dosen" maka  
+        Tampilkan "Akses WiFi diberikan (dosen)"  
 
-Jika tidak, jika jenisPengguna = "mahasiswa" maka  
-    Tampilkan "Masukkan jumlah SKS yang diambil: "  
+    Jika tidak, jika jenisPengguna = "mahasiswa" maka  
+        Tampilkan "Masukkan jumlah SKS yang diambil: "  
 
     Input sks  
     Jika sks >= 12 maka  
@@ -72,8 +72,8 @@ Jika tidak, jika jenisPengguna = "mahasiswa" maka
 
     Jika tidak  
         Tampilkan "Akses ditolak, SKS kurang dari 12"  
-        
-Jika tidak  
-    Tampilkan "Akses ditolak"  
+
+    Jika tidak  
+        Tampilkan "Akses ditolak"  
 
 End  
