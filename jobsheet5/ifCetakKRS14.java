@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class ifCetakKRS14 { 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -11,7 +10,7 @@ public class ifCetakKRS14 {
         if (uktLunas) { 
             System.out.println("Pembayaran UKT terverifikasi");
             System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
-        } else {
+        }   else {
             System.out.println("Silakan Lunasi UKT terlebih dahulu agar bisa mencetak KRS.");
         }
 
