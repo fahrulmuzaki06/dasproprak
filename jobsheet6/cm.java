@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package jobshee6;
 public class cm {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
