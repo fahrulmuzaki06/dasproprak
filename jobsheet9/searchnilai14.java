@@ -33,7 +33,6 @@ public class searchnilai14 {
         }
 
         sc.close();
-
         
     }
     
