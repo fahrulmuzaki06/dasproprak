@@ -32,7 +32,7 @@ public class bioskopwithscanner14 {
                     System.out.println("Data Penonton Disimpan!");
                 }
             } else if (pilihan == 2) {
-                System.out.println("\n Data Penonton di Bioskop:");
+                System.out.println("\n Data Penonton Di Bioskop:");
                 for (int i = 0; i <penonton.length; i++){
                     System.out.print("Baris ke- " + (i + 1)+ ":");
                     for (int j = 0; j < penonton[i].length;j++){
