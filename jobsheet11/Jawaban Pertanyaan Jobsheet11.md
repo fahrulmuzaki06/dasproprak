@@ -21,4 +21,17 @@ Pertanyaan 2.1
 
 Pertanyaan 2.2  
 1.  Tidak, karena setiap elemen memiliki indeks yang bisa di akses kapan saja yang penting tidak diluar ukuran array  
-2.   
+2.  Modifikasi  
+3.  Modifikasi  
+4.  Modifikasi  
+5.  Modifikasi  
+
+Pertanyaan 2.3  
+1.  Modifikasi  
+2.  Menampilkan isi array dalam bentuk teks  
+3.  Nilai default adalah 0  
+4.  Modifikasi  
+5.  Tidak bisa, kita harus membuat array baru  
+
+Pertanyaan 2.4  
+1.  Modifikasi  
