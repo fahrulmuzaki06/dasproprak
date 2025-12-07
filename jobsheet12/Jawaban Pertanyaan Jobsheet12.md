@@ -36,5 +36,36 @@ Pertanyaan 2.3
     2 Parameter  
     int pilihMenu : menu apa yang dipilih pelanggan  
     int banyakItem: jumlah menu yang dipesan pelanggan  
-3.  Modifikasi
-4.  Modifikasi
+3.  Modifikasi  
+4.  Modifikasi  
+
+Pertanyaan 2.4  
+1.  Untuk menerima jumlah nama pengunjung yang berbeda beda tanpa membuat array  
+2.  Modifikasi  
+3.  Bisa tapi tidak dalam satu metode, karena aturan varaargs di java hanya bisa menggudakan 1 parameter   
+    varaargs per metode.  
+    Contoh : static void daftarPengunjung(String...namaPengunjung, int nomerMeja){
+             }  
+4.  Program tidak akan eror dan tetap berjalan  
+    output : hanya "Daftar nama pengunjung"  
+
+Pertanyaan 2.5  
+1.  1. dimulai dari main  
+    2. deklarasi scanner untuk input dari pengguna  
+    3. deklarasi p, l, t, L, vol  
+    4. input panjang : 4  
+    5. input lebar : 3  
+    6. input tinggi : 5  
+    7. menghtung luas p * l  
+    8. menampilkan hasil luas  
+    9. menghitung volume balok p * l * t  
+    10.menampilkan hasil volume
+    11. menutup scanner
+2.  outputnya  
+    Masukkan Panjang  : 4  
+    Masukkan Lebar    : 3  
+    Masukkan Tinggi   : 5  
+    Luas Persegi Panjang Adalah : 12  
+    Volume Balok Adalah         : 60  
+    alur jalannya seperti di jawaban nomer 1  
+3.  
